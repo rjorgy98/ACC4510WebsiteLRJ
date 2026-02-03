@@ -140,8 +140,13 @@
           text-align: center;
         }
         .avatar {
-          margin: 0 auto;
-        }
+  width: 120px;
+  height: 120px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 2px solid #ffffff;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+}
         .grid {
           grid-template-columns: 1fr;
         }
@@ -152,7 +157,7 @@
     <main class="page">
       <section class="card">
         <div class="hero">
-          <div class="avatar">LJ</div>
+          <img class="avatar" src="photos/IMG_7030.jpeg" alt="Headshot of Lance Jorgensen" />
           <div>
             <h1>Lance Jorgensen</h1>
             <p class="subtitle">Accounting and Finance Professional</p>
