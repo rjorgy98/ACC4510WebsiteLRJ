@@ -58,17 +58,16 @@
       }
 
       .avatar {
-        width: 120px;
-        height: 120px;
-        border-radius: 999px;
-        background: linear-gradient(135deg, #0f5f5c, #1f7a74);
-        color: white;
-        display: grid;
-        place-items: center;
-        font-family: "Fraunces", serif;
-        font-size: 32px;
-        letter-spacing: 1px;
-      }
+  width: 120px;
+  height: 120px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+  border: 2px solid #ffffff;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+}
 
       h1 {
         font-family: "Fraunces", serif;
